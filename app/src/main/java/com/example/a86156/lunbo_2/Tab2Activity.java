@@ -26,8 +26,6 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class Tab2Activity extends AppCompatActivity {
-   // final static String url = "212.64.22.160:6086";  //继文服务器ip
-    final static String url = "119.29.103.79:6091";  //继文服务器ip
     private List<GongdanEntity> dataList;  //存放每行的数据
     private GongdanAdapter adapter; //适配器类
     private GridView gridView;  //主布局
@@ -154,7 +152,7 @@ public class Tab2Activity extends AppCompatActivity {
                 try {
                     OkHttpClient client = new OkHttpClient();
                     Request request = new Request.Builder()
-                            .url("http://" + url + "/meswebservice.asmx/NextJob?")
+                            .url(App.url)
                             .build();
                     Response response = client.newCall(request).execute();
                     String dataResponse = response.body().string();
@@ -221,7 +219,7 @@ public class Tab2Activity extends AppCompatActivity {
                try {
                    OkHttpClient client = new OkHttpClient();
                    Request request = new Request.Builder()
-                           .url("http://" + url + "/meswebservice.asmx/GetSertime?")
+                           .url(App.url)
                            .build();
                    Response response = client.newCall(request).execute();
                    String responseData = response.body().string();
