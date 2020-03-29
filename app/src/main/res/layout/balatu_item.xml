@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="940dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#0000CD"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+
+    >
+    <TableRow
+        android:layout_width="940dp"
+        android:layout_height="20dp"
+        android:id="@+id/color"
+        android:background="#0000CD"
+        android:layout_marginTop="1dp"
+        android:paddingRight="1dp"
+        >
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="生产日期"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:id="@+id/scrq"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="应到岗人数"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/ydg"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="实到岗人数"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/sdg"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="标准工时"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/bzgs"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="正常生产"
+            android:id="@+id/zcsc"
+
+            android:layout_marginLeft="1dp"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="稼动率"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/jdl"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="目标稼动率"
+
+            android:layout_marginLeft="1dp"
+            android:id="@+id/mbjdl"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/jhsl"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="实际数量"
+            android:id="@+id/sjsl"
+
+            android:layout_marginLeft="1dp"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="计划达成率"
+            android:textColor="#00FF00"
+            android:background="#000"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/jhdcl"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="目标达成率"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/mbdcl"
+            android:textColor="#00FF00"
+            android:layout_marginRight="1dp"
+            android:background="#000"
+            android:textSize="12dp" />
+
+    </TableRow>
+
+</LinearLayout>
